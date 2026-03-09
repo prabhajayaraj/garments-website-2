@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Urban Threads - Garments Store</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">Urban<span>Threads</span></div>
+      <nav class="nav" id="nav">
+        <a href="#home">Home</a>
+        <a href="#collection">Collection</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Elevate Your Everyday Style</h1>
+          <p>Minimal, comfortable garments designed for modern living. Discover pieces that move with you, from street to studio.</p>
+          <div class="hero-actions">
+            <a href="#collection" class="btn primary">Shop Collection</a>
+            <a href="#about" class="btn ghost">Learn More</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="hero-card">
+            <span class="badge">New Season</span>
+            <div class="hero-illustration">
+              <!-- Simple abstract illustration using gradients -->
+              <div class="hero-blob hero-blob-1"></div>
+              <div class="hero-blob hero-blob-2"></div>
+              <div class="hero-silhouette"></div>
+            </div>
+            <p class="hero-note">Soft cotton tees, relaxed fits, and timeless neutrals.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="collection" class="section collection">
+      <div class="container">
+        <div class="section-header">
+          <h2>Featured Collection</h2>
+          <p>Curated looks to refresh your wardrobe this season.</p>
+        </div>
+
+        <div class="filters">
+          <button class="filter-chip active">All</button>
+          <button class="filter-chip">Men</button>
+          <button class="filter-chip">Women</button>
+          <button class="filter-chip">Unisex</button>
+        </div>
+
+        <div class="grid">
+          <article class="product-card">
+            <div class="product-image product-image-1"></div>
+            <div class="product-info">
+              <h3>Relaxed Cotton Tee</h3>
+              <p>Breathable, everyday essential with a relaxed silhouette.</p>
+              <div class="product-meta">
+                <span class="price">$29.00</span>
+                <span class="tag">Unisex</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-image product-image-2"></div>
+            <div class="product-info">
+              <h3>Tailored Chino Pants</h3>
+              <p>Clean lines and stretch fabric for all‑day comfort.</p>
+              <div class="product-meta">
+                <span class="price">$49.00</span>
+                <span class="tag">Men</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-image product-image-3"></div>
+            <div class="product-info">
+              <h3>Lightweight Overshirt</h3>
+              <p>Layer-friendly piece for cool evenings and crisp mornings.</p>
+              <div class="product-meta">
+                <span class="price">$59.00</span>
+                <span class="tag">Women</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-image product-image-4"></div>
+            <div class="product-info">
+              <h3>Everyday Hoodie</h3>
+              <p>Ultra-soft fleece with a minimal, modern cut.</p>
+              <div class="product-meta">
+                <span class="price">$39.00</span>
+                <span class="tag">Unisex</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="container about-inner">
+        <div>
+          <h2>About Our Garments</h2>
+          <p>We believe great style should never compromise on comfort. Our garments are made from responsibly sourced fabrics, with silhouettes that feel effortless and look refined.</p>
+          <p>From everyday basics to statement layers, each piece is designed to mix, match, and last beyond a single season.</p>
+        </div>
+        <ul class="about-list">
+          <li>
+            <span class="about-icon">✓</span>
+            <div>
+              <h3>Quality Fabrics</h3>
+              <p>Soft, durable materials selected for daily wear.</p>
+            </div>
+          </li>
+          <li>
+            <span class="about-icon">✓</span>
+            <div>
+              <h3>Timeless Design</h3>
+              <p>Clean, minimal cuts that never go out of style.</p>
+            </div>
+          </li>
+          <li>
+            <span class="about-icon">✓</span>
+            <div>
+              <h3>Comfort First</h3>
+              <p>Relaxed fits that move with you all day.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container contact-inner">
+        <div class="contact-text">
+          <h2>Get in Touch</h2>
+          <p>Have questions about sizing, bulk orders, or custom branding for your garments? Send us a message and we’ll get back to you within 1–2 business days.</p>
+          <div class="contact-details">
+            <p><strong>Email:</strong> hello@urbanthreads.store</p>
+            <p><strong>Phone:</strong> +1 (555) 123‑4567</p>
+            <p><strong>Address:</strong> 21 Market Street, New City</p>
+          </div>
+        </div>
+        <form class="contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Your name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="you@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="4" placeholder="Tell us what you’re looking for" required></textarea>
+          </div>
+          <button type="submit" class="btn primary full-width">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Urban Threads. All rights reserved.</p>
+      <p class="footer-small">Simple demo garments website. Customize text and images for your brand.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
